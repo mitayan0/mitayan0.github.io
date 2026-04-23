@@ -1,10 +1,8 @@
 ---
-
-Layout: post
-Title: Yet another test post
-Date: 2025-03-0 07:54:23 +0600
-Catagories: "test"
-
+layout: post
+title: Yet another test post
+date: 2025-03-29 07:54:23 +0600
+categories: "test"
 ---
 
 
