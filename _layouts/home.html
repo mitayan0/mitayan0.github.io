@@ -1,0 +1,65 @@
+---
+layout: default
+---
+{% assign featured_post = site.posts.first %}
+<section class="hero">
+  <p class="eyebrow">Personal archive</p>
+  <h1>{{ site.title }}</h1>
+  <p class="hero-copy">{{ site.description | strip }}</p>
+  <div class="hero-actions">
+    {% if featured_post %}
+      <a class="button button-primary" href="{{ featured_post.url | relative_url }}">Read latest</a>
+    {% endif %}
+    <a class="button" href="{{ '/about/' | relative_url }}">About this site</a>
+  </div>
+</section>
+
+<section class="grid">
+  <article class="panel panel-feature">
+    <p class="panel-label">Latest post</p>
+    {% if featured_post %}
+      <h2><a href="{{ featured_post.url | relative_url }}">{{ featured_post.title }}</a></h2>
+      <p class="meta">{{ featured_post.date | date: "%B %-d, %Y" }}</p>
+      {% if featured_post.excerpt %}
+        <div class="panel-copy">{{ featured_post.excerpt | strip_html | truncatewords: 28 }}</div>
+      {% endif %}
+    {% else %}
+      <h2>No posts yet</h2>
+      <p class="panel-copy">Start writing and the archive will populate here.</p>
+    {% endif %}
+  </article>
+
+  <article class="panel">
+    <p class="panel-label">What this is</p>
+    <p class="panel-copy">A deliberately small corner of the web for notes, tests, fragments, and finished writing. The goal is not volume. The goal is signal.</p>
+  </article>
+</section>
+
+{% if content != "" %}
+  <section class="panel prose-block">
+    {{ content }}
+  </section>
+{% endif %}
+
+<section class="archive">
+  <div class="section-heading">
+    <p class="eyebrow">Archive</p>
+    <h2>Recent writing</h2>
+  </div>
+
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li class="post-card">
+        <p class="meta">{{ post.date | date: "%b %-d, %Y" }}</p>
+        <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+        {% if post.categories and post.categories != empty %}
+          <p class="category-line">
+            {% for category in post.categories %}
+              <span>{{ category }}</span>
+            {% endfor %}
+          </p>
+        {% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+</section>

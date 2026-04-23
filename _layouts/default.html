@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>
+      {% if page.title %}
+        {{ page.title }} | {{ site.title }}
+      {% else %}
+        {{ site.title }}
+      {% endif %}
+    </title>
+    <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | strip_newlines | normalize_whitespace | escape }}">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    <link rel="alternate" type="application/atom+xml" title="{{ site.title | escape }}" href="{{ '/feed.xml' | relative_url }}">
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="site-header">
+        <a class="site-brand" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+        <nav class="site-nav" aria-label="Primary">
+          <a href="{{ '/' | relative_url }}">Home</a>
+          <a href="{{ '/about/' | relative_url }}">About</a>
+          <a href="{{ '/feed.xml' | relative_url }}">Feed</a>
+        </nav>
+      </header>
+
+      <main class="site-main">
+        {{ content }}
+      </main>
+
+      <footer class="site-footer">
+        <div>
+          <p class="footer-title">{{ site.title }}</p>
+          <p class="footer-copy">{{ site.description | strip }}</p>
+        </div>
+        <ul class="footer-links">
+          {% if site.email %}
+            <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+          {% endif %}
+          {% if site.github_username %}
+            <li><a href="https://github.com/{{ site.github_username }}">GitHub</a></li>
+          {% endif %}
+          {% if site.twitter_username %}
+            <li><a href="https://x.com/{{ site.twitter_username }}">X</a></li>
+          {% endif %}
+        </ul>
+      </footer>
+    </div>
+  </body>
+</html>
