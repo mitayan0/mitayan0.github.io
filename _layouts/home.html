@@ -2,8 +2,9 @@
 layout: default
 ---
 {% assign featured_post = site.posts.first %}
+{% assign page_content = content | strip %}
 <section class="hero">
-  <p class="eyebrow">Personal archive</p>
+  <p class="eyebrow">Personal site</p>
   <h1>{{ site.title }}</h1>
   <p class="hero-copy">{{ site.description | strip }}</p>
   <div class="hero-actions">
@@ -30,12 +31,12 @@ layout: default
   </article>
 
   <article class="panel">
-    <p class="panel-label">What this is</p>
-    <p class="panel-copy">A deliberately small corner of the web for notes, tests, fragments, and finished writing. The goal is not volume. The goal is signal.</p>
+    <p class="panel-label">About</p>
+    <p class="panel-copy">A small place for posts, notes, and unfinished thoughts. Minimal on purpose.</p>
   </article>
 </section>
 
-{% if content != "" %}
+{% if page_content != "" %}
   <section class="panel prose-block">
     {{ content }}
   </section>
