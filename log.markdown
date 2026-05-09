@@ -7,51 +7,50 @@ permalink: /log/
 <section class="log-head">
   <div class="log-mark" aria-hidden="true">m0</div>
   <p>
-    Work, school, projects, and other things that have occupied my attention.
+    School, work, and the path so far.
   </p>
 </section>
 
-<ol class="timeline">
-  <li class="timeline-item">
-    <span class="timeline-year">Now</span>
+<ol class="tree-log">
+  <li class="tree-item">
+    <div class="tree-date">2026 - present</div>
     <div class="timeline-body">
-      <h3>Building and writing on the web</h3>
+      <h3>Backend Software Engineer</h3>
       <p>
-        Collecting projects, notes, and technical experiments in a small place
-        that feels owned instead of rented.
+        Datafluent, Bangladesh. Full-time work on backend systems, APIs, and
+        production software.
       </p>
     </div>
   </li>
 
-  <li class="timeline-item">
-    <span class="timeline-year">2026</span>
+  <li class="tree-item">
+    <div class="tree-date">2025 - 2026</div>
     <div class="timeline-body">
-      <h3>Focused project work</h3>
+      <h3>Backend Software Engineer Intern</h3>
       <p>
-        Working on personal software, writing, and whatever seems worth
-        understanding deeply enough to build.
+        Datafluent, Bangladesh. Internship focused on backend engineering,
+        service development, and practical software work.
       </p>
     </div>
   </li>
 
-  <li class="timeline-item">
-    <span class="timeline-year">NIT Rourkela</span>
+  <li class="tree-item">
+    <div class="tree-date">2019 - 2024</div>
     <div class="timeline-body">
-      <h3>Studied at National Institute of Technology Rourkela</h3>
+      <h3>CSE, National Institute of Technology Rourkela</h3>
       <p>
-        Spent five years around engineering coursework, technical communities,
-        and the long process of learning how to think through hard problems.
+        Rourkela, India. Studied computer science and engineering around
+        coursework, technical communities, and hard problems.
       </p>
     </div>
   </li>
 
-  <li class="timeline-item">
-    <span class="timeline-year">Earlier</span>
+  <li class="tree-item">
+    <div class="tree-date">2016 - 2018</div>
     <div class="timeline-body">
-      <h3>First steps</h3>
+      <h3>HSC, Science</h3>
       <p>
-        Early programming, experiments, unfinished ideas, and the small useful
-        obsessions that eventually turn into projects.
+        Milestone College, Dhaka, Bangladesh.
       </p>
     </div>
   </li>
