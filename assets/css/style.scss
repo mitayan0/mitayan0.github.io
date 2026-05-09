@@ -452,6 +452,17 @@ a:hover {
   color: var(--muted);
 }
 
+.timeline-body .timeline-location {
+  margin-top: 0.2rem;
+  font-size: 0.9rem;
+  font-style: italic;
+}
+
+.timeline-body .timeline-role {
+  color: var(--text);
+  font-weight: 700;
+}
+
 .tree-log {
   --tree-center: 9rem;
   list-style: none;
