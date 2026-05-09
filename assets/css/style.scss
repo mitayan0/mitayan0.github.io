@@ -376,37 +376,6 @@ a:hover {
   margin-top: 2.5rem;
 }
 
-.log-head {
-  display: grid;
-  grid-template-columns: 5.5rem minmax(0, 1fr);
-  gap: 1rem;
-  align-items: center;
-  max-width: 43rem;
-  margin-bottom: 2rem;
-}
-
-.log-head p {
-  margin: 0;
-  color: var(--muted);
-  font-size: 1.06rem;
-}
-
-.log-mark {
-  display: grid;
-  place-items: center;
-  aspect-ratio: 1;
-  border: 1px solid var(--line-strong);
-  border-radius: 12px;
-  background:
-    linear-gradient(135deg, rgba(159, 31, 40, 0.08), transparent 44%),
-    linear-gradient(315deg, rgba(23, 52, 93, 0.1), transparent 48%),
-    var(--surface-soft);
-  color: var(--text);
-  font-family: "IBM Plex Mono", "SFMono-Regular", Consolas, monospace;
-  font-size: 1.2rem;
-  font-weight: 700;
-}
-
 .compact-heading {
   align-items: end;
   margin-bottom: 0.9rem;
@@ -486,7 +455,7 @@ a:hover {
 .tree-log {
   --tree-center: 9rem;
   list-style: none;
-  margin: 0;
+  margin: -0.25rem 0 0;
   padding: 0;
   position: relative;
 }
@@ -606,10 +575,6 @@ a:hover {
   .timeline-item {
     grid-template-columns: 1fr;
     gap: 0.35rem;
-  }
-
-  .log-head {
-    grid-template-columns: 4rem minmax(0, 1fr);
   }
 
   .tree-log {
