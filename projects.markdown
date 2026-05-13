@@ -18,32 +18,40 @@ permalink: /projects/
   </div>
 
   <div class="project-list">
-    <article class="project-item">
-      <div>
+    <article class="project-card">
+      <header>
         <p class="project-kicker">PostgreSQL table migration</p>
         <h3><a href="https://github.com/mitayan0/pg-migrate">PG-Migrate</a></h3>
+      </header>
+      <div class="project-copy">
+        <p class="project-overview">A cross-platform PostgreSQL migration tool built with Rust, Tauri, and React. PG-Migrate moves tables, schemas, and records between databases with a focus on speed, safety, and repeatability.</p>
+        <ul class="project-highlights">
+          <li>Optimized batch writing and keyset pagination for fast, consistent migration of large datasets.</li>
+          <li>Schema remapping, foreign-key-aware table ordering, and sequence synchronization for safe cross-database cloning.</li>
+          <li>Non-destructive migration options with conflict-safe behavior and optional target truncation.</li>
+        </ul>
       </div>
-      <p>
-        A cross-platform PostgreSQL migration tool built with Rust, Tauri, and React. PG-Migrate moves tables, schemas, and records between databases with an emphasis on speed and reliability.
-      </p>
-      <p>
-        It uses optimized multi-row batching and keyset pagination to keep large migrations consistent and fast. The tool preserves JSON/JSONB payloads, synchronizes serial sequences, and orders tables by foreign-key dependencies so migrations complete safely.
-      </p>
-      <p class="project-meta">Rust / Tauri / React / TypeScript / PostgreSQL</p>
+      <footer>
+        <p class="project-meta">Rust / Tauri / React / TypeScript / PostgreSQL</p>
+      </footer>
     </article>
 
-    <article class="project-item">
-      <div>
+    <article class="project-card">
+      <header>
         <p class="project-kicker">SQL for APIs and data</p>
         <h3><a href="https://github.com/mitayan0/sidol">Sidol</a></h3>
+      </header>
+      <div class="project-copy">
+        <p class="project-overview">A universal SQL interface that lets you query APIs and databases through familiar SQL syntax. Sidol executes reads via DuckDB and routes write operations to connector-backed APIs.</p>
+        <ul class="project-highlights">
+          <li>Plain SQL access to heterogeneous data sources including ServiceNow, CSV, and SQLite.</li>
+          <li>Query parsing with sqlglot, connector-based write routing, and extensibility through a BaseConnector interface.</li>
+          <li>Designed for fast exploration, data engineering experiments, and API-backed workflows from one unified layer.</li>
+        </ul>
       </div>
-      <p>
-        A universal SQL layer for APIs and databases. Sidol executes SELECT queries through DuckDB and converts INSERT/UPDATE/DELETE operations into connector-driven write actions.
-      </p>
-      <p>
-        Includes built-in connectors for ServiceNow, CSV, and SQLite, and can be extended by implementing a BaseConnector for new sources. Ideal for working with heterogeneous data from one familiar interface.
-      </p>
-      <p class="project-meta">Python / DuckDB / sqlglot / Data connectors</p>
+      <footer>
+        <p class="project-meta">Python / DuckDB / sqlglot / Data connectors</p>
+      </footer>
     </article>
   </div>
 </section>

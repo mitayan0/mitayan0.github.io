@@ -388,26 +388,51 @@ a:hover {
 
 .project-list {
   display: grid;
-  gap: 0;
-  border-top: 1px solid var(--line);
+  gap: 1.5rem;
 }
 
-.project-item {
+.project-card {
   display: grid;
-  grid-template-columns: minmax(10rem, 0.75fr) minmax(0, 1.4fr) minmax(9rem, 0.65fr);
   gap: 1rem;
-  padding: 1rem 0;
-  border-bottom: 1px solid var(--line);
+  padding: 1.5rem;
+  border: 1px solid var(--line);
+  border-radius: 1rem;
+  background: var(--surface-strong);
 }
 
-.project-item h3,
+.project-card header,
+.project-card footer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.project-card h3,
 .timeline-body h3 {
   margin: 0;
   line-height: 1.2;
   letter-spacing: -0.02em;
 }
 
-.project-item p {
+.project-copy {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.project-overview {
+  margin: 0;
+  color: var(--text);
+}
+
+.project-highlights {
+  margin: 0;
+  padding-left: 1.15rem;
+  color: var(--muted);
+  display: grid;
+  gap: 0.5rem;
+}
+
+.project-highlights li {
   margin: 0;
 }
 
@@ -418,11 +443,14 @@ a:hover {
 }
 
 .project-kicker {
-  margin-bottom: 0.25rem;
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
 }
 
 .project-meta {
-  text-align: right;
+  margin: 0;
+  text-align: left;
 }
 
 .timeline {
