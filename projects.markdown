@@ -4,19 +4,7 @@ title: Projects
 permalink: /projects/
 ---
 
-<section class="projects-intro">
-  <p>
-    A small index of things I have built, studied, worked on, and kept thinking
-    about after closing the laptop.
-  </p>
-</section>
-
-<section class="projects-section" aria-labelledby="selected-projects">
-  <div class="section-heading compact-heading">
-    <p class="eyebrow">Work</p>
-    <h2 id="selected-projects">Selected projects</h2>
-  </div>
-
+<section class="projects-section">
   <div class="project-list">
     <article class="project-card">
       <header>
