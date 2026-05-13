@@ -20,38 +20,30 @@ permalink: /projects/
   <div class="project-list">
     <article class="project-item">
       <div>
-        <p class="project-kicker">Personal web</p>
-        <h3>This site</h3>
+        <p class="project-kicker">PostgreSQL table migration</p>
+        <h3><a href="https://github.com/mitayan0/pg-migrate">PG-Migrate</a></h3>
       </div>
       <p>
-        A quiet personal archive for posts, notes, and experiments. Built with
-        Jekyll, plain HTML, and a deliberately small CSS surface.
+        A cross-platform PostgreSQL migration tool built with Rust, Tauri, and React. PG-Migrate moves tables, schemas, and records between databases with an emphasis on speed and reliability.
       </p>
-      <p class="project-meta">Jekyll / CSS / GitHub Pages</p>
+      <p>
+        It uses optimized multi-row batching and keyset pagination to keep large migrations consistent and fast. The tool preserves JSON/JSONB payloads, synchronizes serial sequences, and orders tables by foreign-key dependencies so migrations complete safely.
+      </p>
+      <p class="project-meta">Rust / Tauri / React / TypeScript / PostgreSQL</p>
     </article>
 
     <article class="project-item">
       <div>
-        <p class="project-kicker">Learning log</p>
-        <h3>Notes, experiments, and proofs of concept</h3>
+        <p class="project-kicker">SQL for APIs and data</p>
+        <h3><a href="https://github.com/mitayan0/sidol">Sidol</a></h3>
       </div>
       <p>
-        Small technical explorations that are useful enough to keep around,
-        even when they are too scrappy to become full posts.
+        A universal SQL layer for APIs and databases. Sidol executes SELECT queries through DuckDB and converts INSERT/UPDATE/DELETE operations into connector-driven write actions.
       </p>
-      <p class="project-meta">Writing / Research / Prototypes</p>
-    </article>
-
-    <article class="project-item">
-      <div>
-        <p class="project-kicker">Next</p>
-        <h3>Open slot</h3>
-      </div>
       <p>
-        Replace this with a project you are proud of: what it does, why it
-        exists, and what you learned building it.
+        Includes built-in connectors for ServiceNow, CSV, and SQLite, and can be extended by implementing a BaseConnector for new sources. Ideal for working with heterogeneous data from one familiar interface.
       </p>
-      <p class="project-meta">Add stack / link / year</p>
+      <p class="project-meta">Python / DuckDB / sqlglot / Data connectors</p>
     </article>
   </div>
 </section>
