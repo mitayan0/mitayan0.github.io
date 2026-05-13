@@ -39,7 +39,7 @@ permalink: /log/
     <div class="tree-date">2019 - 2024</div>
     <div class="timeline-body">
       <div class="timeline-heading">
-        <span class="timeline-logo timeline-logo-nit">NIT</span>
+        <img class="timeline-logo timeline-logo-nit" src="/assets/logo/NIT_Rourkela_Colour_Logo_Official.png" alt="NIT Rourkela logo">
         <h3>National Institute of Technology Rourkela</h3>
       </div>
       <p class="timeline-location">Rourkela, Odisha, India.</p>
@@ -53,7 +53,7 @@ permalink: /log/
     <div class="tree-date">2016 - 2018</div>
     <div class="timeline-body">
       <div class="timeline-heading">
-        <span class="timeline-logo timeline-logo-milestone">MC</span>
+        <img class="timeline-logo timeline-logo-milestone" src="/assets/logo/milestone_college_logo.png" alt="Milestone College logo">
         <h3>Milestone College</h3>
       </div>
       <p class="timeline-location">Dhaka, Bangladesh.</p>
