@@ -1,8 +1,10 @@
 ---
-layout: page
+layout: default
 title: Projects
 permalink: /projects/
 ---
+
+<h1>Projects</h1>
 
 <section class="projects-section full-width-projects">
   <div class="project-list">
