@@ -4,7 +4,7 @@ title: Projects
 permalink: /projects/
 ---
 
-<section class="projects-section">
+<section class="projects-section full-width-projects">
   <div class="project-list">
     <article class="project-card">
       <header>
