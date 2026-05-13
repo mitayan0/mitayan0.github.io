@@ -482,6 +482,40 @@ a:hover {
   color: var(--muted);
 }
 
+.timeline-body .timeline-heading {
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
+  margin-bottom: 0.35rem;
+}
+
+.timeline-logo {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.2rem;
+  height: 2.2rem;
+  border-radius: 0.75rem;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #fff;
+  background: var(--muted);
+}
+
+.timeline-logo-milestone {
+  background: #8b0000;
+}
+
+.timeline-logo-nit {
+  background: #0f3a70;
+}
+
+.timeline-logo-datafluent {
+  background: #17345d;
+}
+
 .timeline-body .timeline-location {
   margin-top: 0.2rem;
   font-size: 0.9rem;

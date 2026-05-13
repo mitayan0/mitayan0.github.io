@@ -8,7 +8,10 @@ permalink: /log/
   <li class="tree-item">
     <div class="tree-date">2026 - present</div>
     <div class="timeline-body">
-      <h3>Datafluent(BD)</h3>
+      <div class="timeline-heading">
+        <span class="timeline-logo timeline-logo-datafluent">DF</span>
+        <h3>Datafluent(BD)</h3>
+      </div>
       <p class="timeline-location">Rangamati Hill Tracts, Chittagong, Bangladesh.</p>
       <p class="timeline-role">Backend Software Engineer</p>
       <p>
@@ -20,7 +23,10 @@ permalink: /log/
   <li class="tree-item">
     <div class="tree-date">2025 - 2026</div>
     <div class="timeline-body">
-      <h3>Datafluent(BD)</h3>
+      <div class="timeline-heading">
+        <span class="timeline-logo timeline-logo-datafluent">DF</span>
+        <h3>Datafluent(BD)</h3>
+      </div>
       <p class="timeline-location">Rangamati Hill Tracts, Chittagong, Bangladesh.</p>
       <p class="timeline-role">Backend Software Engineer Intern</p>
       <p>
@@ -32,7 +38,10 @@ permalink: /log/
   <li class="tree-item">
     <div class="tree-date">2019 - 2024</div>
     <div class="timeline-body">
-      <h3>National Institute of Technology Rourkela</h3>
+      <div class="timeline-heading">
+        <span class="timeline-logo timeline-logo-nit">NIT</span>
+        <h3>National Institute of Technology Rourkela</h3>
+      </div>
       <p class="timeline-location">Rourkela, Odisha, India.</p>
       <p>
         Studied Computer Science and Engineering.
@@ -43,7 +52,10 @@ permalink: /log/
   <li class="tree-item">
     <div class="tree-date">2016 - 2018</div>
     <div class="timeline-body">
-      <h3>Milestone College</h3>
+      <div class="timeline-heading">
+        <span class="timeline-logo timeline-logo-milestone">MC</span>
+        <h3>Milestone College</h3>
+      </div>
       <p class="timeline-location">Dhaka, Bangladesh.</p>
       <p>
         Completed Higher Secondary Certificate in Science.
