@@ -6,7 +6,7 @@ permalink: /projects/
 
 <h1>Projects</h1>
 
-<section class="projects-section full-width-projects">
+<section class="projects-section">
   <div class="project-list">
     <article class="project-card">
       <header>
