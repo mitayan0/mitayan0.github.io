@@ -45,10 +45,7 @@ layout: default
 <section class="archive">
   {% assign all_thoughts = site.thoughts | sort: "date" | reverse %}
   {% if all_thoughts.size > 0 %}
-  <div class="section-heading">
-    <p class="eyebrow">Flash cards</p>
-    <h2>Thoughts</h2>
-  </div>
+  <p class="eyebrow">Thoughts</p>
   <ul class="thought-list">
     {% for thought in all_thoughts %}
       <li class="thought-card">
@@ -61,10 +58,7 @@ layout: default
 
   {% assign all_posts = site.posts %}
   {% if all_posts.size > 0 %}
-  <div class="section-heading notes-heading">
-    <p class="eyebrow">Writing</p>
-    <h2>Notes</h2>
-  </div>
+  <p class="eyebrow notes-eyebrow">Notes</p>
   <ul class="notes-list">
     {% for post in all_posts %}
       <li class="note-item">
