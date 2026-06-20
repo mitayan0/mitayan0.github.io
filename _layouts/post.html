@@ -3,7 +3,7 @@ layout: default
 ---
 <article class="post">
   <header class="post-header">
-    <p class="eyebrow">Essay</p>
+    <p class="eyebrow">Note</p>
     <h1>{{ page.title }}</h1>
     <div class="post-meta">
       <span>{{ page.date | date: "%B %-d, %Y" }}</span>
@@ -25,7 +25,7 @@ layout: default
     {{ content }}
   </div>
 
-  <nav class="post-nav" aria-label="Post navigation">
+  <nav class="post-nav" aria-label="Note navigation">
     {% if page.previous %}
       <a href="{{ page.previous.url | relative_url }}">Previous: {{ page.previous.title }}</a>
     {% else %}

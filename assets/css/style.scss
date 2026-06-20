@@ -265,6 +265,37 @@ a:hover {
   font-size: 1.25rem;
 }
 
+/* ── Thought cards ─────────────────────────────────── */
+.thought-card {
+  grid-column: span 4;
+  position: relative;
+  padding: 1.1rem 1.2rem 0.9rem;
+  border: 1px solid var(--line);
+  border-left: 3px solid var(--muted);
+  border-radius: 16px;
+  background: var(--surface-soft);
+  box-shadow: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+}
+
+.thought-text {
+  margin: 0;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: var(--text);
+}
+
+.thought-date {
+  margin: 0;
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+
 .category-line {
   display: flex;
   gap: 0.5rem;
@@ -619,7 +650,8 @@ a:hover {
     align-items: flex-start;
   }
 
-  .post-card {
+  .post-card,
+  .thought-card {
     grid-column: span 12;
   }
 

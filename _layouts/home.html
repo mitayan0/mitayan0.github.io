@@ -17,7 +17,7 @@ layout: default
 
 <section class="grid">
   <article class="panel panel-feature">
-    <p class="panel-label">Latest post</p>
+    <p class="panel-label">Latest note</p>
     {% if featured_post %}
       <h2><a href="{{ featured_post.url | relative_url }}">{{ featured_post.title }}</a></h2>
       <p class="meta">{{ featured_post.date | date: "%B %-d, %Y" }}</p>
@@ -45,22 +45,45 @@ layout: default
 <section class="archive">
   <div class="section-heading">
     <p class="eyebrow">Archive</p>
-    <h2>Recent writing</h2>
+    <h2>Notes</h2>
   </div>
 
+  {% assign all_posts = site.posts %}
+  {% assign all_thoughts = site.thoughts %}
+
+  {% comment %}Build a combined array sorted by date{% endcomment %}
+  {% assign feed_items = "" | split: "" %}
+  {% for post in all_posts %}
+    {% assign feed_items = feed_items | push: post %}
+  {% endfor %}
+  {% for thought in all_thoughts %}
+    {% assign feed_items = feed_items | push: thought %}
+  {% endfor %}
+  {% assign feed_items = feed_items | sort: "date" | reverse %}
+
   <ul class="post-list">
-    {% for post in site.posts %}
-      <li class="post-card">
-        <p class="meta">{{ post.date | date: "%b %-d, %Y" }}</p>
-        <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
-        {% if post.categories and post.categories != empty %}
-          <p class="category-line">
-            {% for category in post.categories %}
-              <span>{{ category }}</span>
-            {% endfor %}
-          </p>
-        {% endif %}
-      </li>
+    {% for item in feed_items %}
+      {% if item.title %}
+        {{comment}} Blog post card {{endcomment}}
+        <li class="post-card">
+          <p class="meta">{{ item.date | date: "%b %-d, %Y" }}</p>
+          <h3><a href="{{ item.url | relative_url }}">{{ item.title }}</a></h3>
+          {% if item.categories and item.categories != empty %}
+            <p class="category-line">
+              {% for category in item.categories %}
+                <span>{{ category }}</span>
+              {% endfor %}
+            </p>
+          {% endif %}
+        </li>
+      {% else %}
+        {{comment}} Thought card {{endcomment}}
+        <li class="thought-card">
+          <p class="thought-text">{{ item.content | strip_html | strip }}</p>
+          <p class="thought-date">{{ item.date | date: "%b %-d, %Y" }}</p>
+        </li>
+      {% endif %}
     {% endfor %}
   </ul>
 </section>
+
