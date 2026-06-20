@@ -13,11 +13,11 @@ Or imagine i am a heavenly messenger sent by god to give you a message out of 8 
 
 You are a god, you have the most sophisticated filtering algorithm to filter out whom to bless, whom to punish at the same time because you have unlimited compute. You have never ending energy that you waste on mere humans because you love them to watch suffer, to get killed to get bombed.
 
-You grant people happy, prospering & beautiful life but doesn't listen to people who pray to end war, poverty, sickness, death etc.
+You grant people happy, prospering & beautiful life but you don't listen to people who pray to end war, poverty, sickness, death etc.
 
-In modern words, you have humanphobia. Because you doesn't listen to people who want to live peacefully, you hate watching people of different colour, race, language living together peacefully.
+In modern words, you have humanphobia. Because you don't listen to people who want to live peacefully, you hate watching people of different colour, race, language living together peacefully.
 
-You are a god, you forgive who acknowledge you as a god but not other 999+ religious beliefs who doesn't acknowledge you as a god. You will sent them straight to the hell which means you hate people.
+You are a god, you forgive who acknowledge you as a god but not other 999+ religious beliefs who don't acknowledge you as a god. You will sent them straight to the hell which means you hate people.
 
 You are a god, you don't want people to be happy every moment of their life because you love your creation. They are your child, how can you wish them to be happy 24/7. Doesn't it means you don't care about them or what?
 
