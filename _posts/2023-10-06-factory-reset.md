@@ -4,26 +4,26 @@ title: "Factory Reset"
 date: 2023-10-06 00:00:00 +0600
 ---
 
-Sitting in a dark room,
+Sitting in a dark room,<br>
 nothing is in my control.
 
-The sky feels full of rage —
+The sky feels full of rage —<br>
 enough to blow up the whole world.
 
-Oh, heavy desire —
-can you flash like a thunderbolt,
+Oh, heavy desire —<br>
+can you flash like a thunderbolt,<br>
 one that resets every filthy human thought?
 
-My heart feels like a cannon burst,
-ready to break through the barriers of evil —
+My heart feels like a cannon burst,<br>
+ready to break through the barriers of evil —<br>
 within the self and others.
 
-The clouds are fighting over where to settle,
+The clouds are fighting over where to settle,<br>
 to ease upon the unstilled minds.
 
-If the clouds could act,
-they would tear through everyone on earth with a thunderbolt —
-to direct human society toward good,
+If the clouds could act,<br>
+they would tear through everyone on earth with a thunderbolt —<br>
+to direct human society toward good,<br>
 not to blow up another so-called "country."
 
 Most of our cultures need a factory reset — to be sent in a new direction.
