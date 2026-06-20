@@ -26,12 +26,12 @@ they would tear through everyone on earth with a thunderbolt —<br>
 to direct human society toward good.<br>
 
 Not to blow up another so-called "country".
-Most of our cultures need a factory reset —<br> to be sent in a new direction.<br>
+Most of our cultures need a factory reset — to be sent in a new direction.
 
-Although no one can make everyone happy or satisfied —<br> even the greatest human beings couldn't change the destructive nature of humans —<br> so who am I here?
+Although no one can make everyone happy or satisfied, even the greatest human beings couldn't change the destructive nature of humans — so who am I here?
 
-In search of peace and happiness,<br> most of society just turns into another hole —<br> one where they cannot reflect on their own nature.<br>
-Every time they try to escape,<br> there is a mountain too steep to cut through,<br> and they get buried: unknown, valueless.
+In search of peace and happiness, most of society just turns into another hole — one where they cannot reflect on their own nature.
+Every time they try to escape, there is a mountain too steep to cut through, and they get buried: unknown, valueless.
 
 Every society needs to head out into open fields and interact with nature the way they would with themselves. They would find every reason to live — and help others to grow as a whole, not rot like meat that can't be touched until it's buried.
 
